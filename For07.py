@@ -7,7 +7,7 @@ def main(N):
         int: return  answer
     """
     sum_odds=0
-    for i in range(N+1):
+    for i in range(N):
         if i%2==1:
             sum_odds+=i
     return sum_odds
