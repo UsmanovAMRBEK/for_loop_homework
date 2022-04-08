@@ -8,6 +8,8 @@ def main(A,B):
         list: return  answer
     """
     answer=[]
-    for i in range(B,A-1):
+    for i in range(B,A-1,-1):
         answer.append(i)
     return answer
+n=5;m=9
+print(main(n,m))
